@@ -8,6 +8,7 @@ import 'element-ui/lib/theme-chalk/index.css';
 import ZfMenu from './components/zf-menu';
 import ZfMenuItem from './components/zf-menu-item';
 import zfSubmenu from './components/zf-submenu';
+// 全局注册组件，方便使用
 Vue.component('ZfMenu', ZfMenu)
 Vue.component('ZfMenuItem', ZfMenuItem)
 Vue.component('zfSubmenu', zfSubmenu)
