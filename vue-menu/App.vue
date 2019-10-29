@@ -1,39 +1,6 @@
 <template>
   <div>
     <Menu :data="data"></Menu>
-    <!-- <zf-menu>
-          里面有两部分 一部分是标题 另一部分是标题展开的内容
-          v-slot
-
-          数据驱动视图
-          <zf-submenu>
-              <template slot="title">导航一</template>
-               <zf-submenu >
-                   <template slot="title">导航一.1</template>
-                    <zf-menu-item>选项1-2</zf-menu-item>
-                    <zf-menu-item>选项1-3</zf-menu-item>
-               </zf-submenu>
-              <zf-menu-item >选项1-2</zf-menu-item>
-              <zf-menu-item>选项1-3</zf-menu-item>
-          </zf-submenu>
-          <zf-menu-item>导航二</zf-menu-item>
-          <zf-menu-item>导航三</zf-menu-item>
-    </zf-menu>-->
-    <!-- <el-menu default-active="2" class="el-menu-vertical-demo">
-      <el-submenu index="1">
-        <template slot="title">导航一</template>
-        <el-submenu index="1-1">
-          <template slot="title">选项1-1</template>
-          <el-menu-item index="1-1-1">选项1-1-1</el-menu-item>
-          <el-menu-item index="1-1-2">选项1-1-2</el-menu-item>
-        </el-submenu>
-        <el-menu-item index="1-2">选项1-2</el-menu-item>
-        <el-menu-item index="1-3">选项1-3</el-menu-item>
-      </el-submenu>
-      <el-menu-item index="2">导航二</el-menu-item>
-      <el-menu-item index="3">导航三</el-menu-item>
-      <el-menu-item index="4">导航四</el-menu-item>
-    </el-menu>-->
   </div>
 </template>
 <script>
